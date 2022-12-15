@@ -1,0 +1,36 @@
+body {
+    background-image: url("./assets/sfondo-nat.webp");
+    background-position: cover;
+    background-size: 100%;
+    text-align: center;
+}
+
+#title {
+    color: rgb(165, 10, 10);
+}
+
+input,
+button {
+    padding: 0.5em;
+}
+
+button {
+    background-color: rgb(165, 10, 10);
+    color: white;
+    font-weight: bold;
+}
+
+.list-item {
+    border: 1px solid goldenrod;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgb(165, 10, 10);
+}
+
+.list-item.selected {
+    background-color: rgb(228, 105, 105);
+    box-shadow: 0 12px 24px -8px rgba(134, 0, 0, 0.2);
+    border-color: rgb(255, 0, 0);
+    transform: scale(1.2);
+}
