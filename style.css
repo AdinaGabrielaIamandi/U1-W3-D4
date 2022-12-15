@@ -26,6 +26,7 @@ button {
     margin-bottom: 10px;
     padding: 10px;
     background-color: rgb(165, 10, 10);
+    color: white;
 }
 
 .list-item.selected {
@@ -33,4 +34,5 @@ button {
     box-shadow: 0 12px 24px -8px rgba(134, 0, 0, 0.2);
     border-color: rgb(255, 0, 0);
     transform: scale(1.2);
+    color: white;
 }
