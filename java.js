@@ -17,3 +17,9 @@ const gestisciKeyUpSuInput = (event) => {
         document.getElementById("text-input").value = "";
     }
 };
+
+const delet = (e) => {
+    const lista = document.getElementById("list-item");
+    const elimina = document.querySelectorAll(".selected");
+    elimina.forEach((e) => lista.removeChild(e));
+};
