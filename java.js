@@ -1,6 +1,6 @@
 const addClass = (event) => {
     const elementoSelezionato = event.target;
-    elementoSelezionato.classList.add("selected");
+    elementoSelezionato.classList.toggle("selected");
 };
 const gestisciKeyUpSuInput = (event) => {
     const valoreInput = document.getElementById("text-input").value;
